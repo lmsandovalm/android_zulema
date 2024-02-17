@@ -3,9 +3,9 @@ package com.sebastian.laura
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class ListaDatos : AppCompatActivity() {
+class IngresarCiudad : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_lista_datos)
+        setContentView(R.layout.activity_ingresar_ciudad)
     }
 }
