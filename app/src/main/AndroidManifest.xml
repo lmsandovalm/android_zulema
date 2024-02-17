@@ -13,8 +13,20 @@
         android:theme="@style/Theme.Laura"
         tools:targetApi="31">
         <activity
-            android:name=".ListaDatos"
+            android:name=".IngresarCiudad"
             android:exported="false" />
+        <activity
+            android:name=".IngresoCiudades"
+            android:exported="false" />
+        <activity
+            android:name=".Controladores"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -36,13 +48,7 @@
             android:label="@string/title_activity_maps" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>

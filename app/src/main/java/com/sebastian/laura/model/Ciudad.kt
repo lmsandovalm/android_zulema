@@ -1,4 +1,6 @@
 package com.sebastian.laura.model
 
-class Ciudad {
+data class Ciudad(val cod: Int, val nombre: String) {
+
+
 }

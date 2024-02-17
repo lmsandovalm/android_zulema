@@ -1,4 +1,24 @@
 <resources>
     <string name="app_name">Laura</string>
     <string name="title_activity_maps">MapsActivity</string>
+
+    <string-array name="peliculas">
+        <item>Diario de una pasión</item>
+        <item>La la land</item>
+        <item>El origen</item>
+    </string-array>
+
+    <string-array name="ciudades">
+        <item>Santander</item>
+        <item>Santiago de chile</item>
+        <item>Yopal</item>
+    </string-array>
+
+    <string-array name="frutas">
+        <item>Sandía</item>
+        <item>Papaya</item>
+        <item>Manzana</item>
+    </string-array>
+
+
 </resources>
